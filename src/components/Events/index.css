@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.the-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+}
+ul {
+  width: 60%;
+  list-style-type: none;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+}
+.result-cont {
+  width: 40%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

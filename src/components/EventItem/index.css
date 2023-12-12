@@ -1,0 +1,22 @@
+/* Write your CSS here */
+h1 {
+  color: white;
+  font-size: 20px;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+}
+.img {
+  border: 0px;
+  border-radius: 7px;
+  height: 10%;
+  width: 10%;
+}
+.clicked-img {
+  border: 1px solid #f8fafc;
+  border-radius: 7px;
+  height: 10%;
+  width: 10%;
+}
